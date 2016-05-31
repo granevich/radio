@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+
+}
+body{
+
+  overflow: hidden;
+}
+.title{
+  text-align: center;
+  font-size: 5em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.qualityUR1{
+  text-align: center;
+  font-size: 2em;
+
+
+}
+.qualityUR2{
+  text-align: center;
+  font-size: 2em;
+}
+.qualityUR3{
+  text-align: center;
+  font-size: 2em;
+}
+.material-icons{
+  font-size: 1.5em;
+}
+.radio{
+text-align: center;
+
+  i{
+    font-size: 24em;
+  }
+}
+.mdl-navigation__link{
+  font-size: 3em;
+  line-height: 50px;
+}
+.mdl-navigation{
+  background: white;
+}
+
+
+#wrapper_for_radio1{
+  border: 1px solid black;
+  background: cadetblue;
+  height: 100vh;
+
+}
+#wrapper_for_radio2{
+  border: 1px solid black;
+  background: indianred;
+  height: 100vh;
+}
+#wrapper_for_radio3{
+  height: 100vh;
+  border: 1px solid black;
+}
+.mdl-button--icon{
+  width: 10px;
+  height: 100px;
+  text-align: center;
+}
+
+.mdl-menu__item {
+
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0;
+  }
+
+.mdl-menu{
+
+  padding: 0;
+
+}
+.mdl-layout__drawer{
+  background: #fff;
+}
+.mdl-layout__content{
+  overflow: hidden;
+}
+.mdl-navigation__link{
+  color:black!important;
+}
+#UR1:hover{
+  color:cadetblue !important;
+}
+#UR2:hover{
+  color:indianred !important;
+}
+#UR3:hover{
+  color:white !important;
+}

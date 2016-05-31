@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="bower_components/jquery.js"></script>
+    <script src="bower_components/jquery.jplayer.js"></script>
+    <script src="bower_components/material.min.js"></script>
+    <link rel="stylesheet" href="bower_components/material.min.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title"><img src="logo.jpg" alt="radioUR"></span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" id="UR1" href="#wrapper_for_radio1">Перший</a>
+            <a class="mdl-navigation__link" id="UR2" href="#wrapper_for_radio2">Проминь</a>
+            <a class="mdl-navigation__link" id="UR3" href="#wrapper_for_radio3">Культура</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+
+        <div id="wrapper_for_radio1">
+            <div class="title" >
+                Перший
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <div>
+                    <span class="qualityUR1"></span>
+                    <button id="menu-speed" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+                    <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect" for="menu-speed">
+                        <li class="mdl-menu__item UR1kbit192">192kbit/s</li>
+                        <li class="mdl-menu__item UR1kbit128">128kbit/s</li>
+                        <li class="mdl-menu__item UR1kbit56">56kbit/s</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-content">
+                <div class="radio">
+                    <i class="material-icons" id="play1">play_arrow</i> <i class="material-icons" id="pause1">pause</i>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div id="wrapper_for_radio2">
+            <div class="title" >
+                Проминь
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <div>
+                    <span class="qualityUR2"></span>
+                    <button id="menu-speed1" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+                    <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect" for="menu-speed1">
+                        <li class="mdl-menu__item UR2kbit192">192kbit/s</li>
+                        <li class="mdl-menu__item UR2kbit128">128kbit/s</li>
+                        <li class="mdl-menu__item UR2kbit56">56kbit/s</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-content">
+                <div class="radio">
+                    <i class="material-icons" id="play2">play_arrow</i> <i class="material-icons" id="pause2">pause</i>
+                </div>
+
+            </div>
+        </div>
+        <div id="wrapper_for_radio3">
+            <div class="title" >
+                Культура
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <div>
+                    <span class="qualityUR3"></span>
+                    <button id="menu-speed2" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+                    <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect" for="menu-speed2">
+                        <li class="mdl-menu__item UR3kbit192">192kbit/s</li>
+                        <li class="mdl-menu__item UR3kbit128">128kbit/s</li>
+                        <li class="mdl-menu__item UR3kbit56">56kbit/s</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-content">
+                <div class="radio">
+                    <i class="material-icons" id="play3">play_arrow</i> <i class="material-icons" id="pause3">pause</i>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+<div id="jquery_jplayer_UR1" class="jp-jplayer"></div>
+<div id="jquery_jplayer_UR2" class="jp-jplayer"></div>
+<div id="jquery_jplayer_UR3" class="jp-jplayer"></div>
+</body>
+<script>
+
+
+
+
+
+
+
+</script>
+</html>
